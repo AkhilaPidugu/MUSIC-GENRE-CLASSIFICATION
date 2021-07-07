@@ -1,0 +1,7 @@
+flask 
+librosa 
+numpy 
+tensorflow == 2.4.1
+requests 
+werkzeug
+typing-extensions 
