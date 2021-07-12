@@ -1,14 +1,18 @@
 .formbody{
-background-image:url('../static/listening-to-music-headphones.jpg');
-background-repeat:no-repeat;
-background-size:cover;
-background-position:auto;
+  background-image: url('../static/listening-to-music-headphones.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; 
+  
 }
+
 .predictbody{
     background-image:url('../static/predict.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 .title {
     padding: 20px;
@@ -48,42 +52,3 @@ background-position:auto;
       margin-top: 20px;
     }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .title {font-size: 20px;}
-    .upload{font-size: 15px;}
-    .file{font-size: 12px;}
-    .button{font-size: 12px;}
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    .title {font-size: 30px;}
-    .upload{font-size: 18px;}
-    .file{font-size: 12px;}
-    .button{font-size: 12px;}
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .title {font-size: 50px;}
-    .upload{font-size: 25px;}
-    .file{font-size: 15px;}
-    .button{font-size: 15px;}
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .title {font-size: 50px;}
-    .upload{font-size: 30px;}
-    .file{font-size: 18px;}
-    .button{font-size: 18px;}
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .title {font-size: 50px;}
-    .upload{font-size: 40px;}
-    .file{font-size: 18px;}
-    .button{font-size: 18px;}
-  }
